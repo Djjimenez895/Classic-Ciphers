@@ -51,7 +51,7 @@ Description: Cipher.py is a commnad-line tool that allows a user to pick between
     9) python3 cipher.py encrypt -rfc -fow rfctest.txt -output testoutput.txt -key 3 
     10) python3 cipher.py decrypt -rfc -fow testoutput.txt -output rfctest.txt -key 3 
   
-  ### List of commands for component of the command line tool
+  ### List of commands for components of the command line tool
     1) action: 
       encrypt - lets the program know that you want to encrypt a file 
       decrypt - lets the program know that you want to decrypt a file 
