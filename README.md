@@ -32,8 +32,8 @@ Description: Cipher.py is a commnad-line tool that allows a user to pick between
   
   ### An Example of one command for each cipher for both encryption and decryption
     *Caesar Cipher command examples* 
-    1) python3 cipher.py encrypt -c -fow ctest.txt -output testoutput.txt <br/>
-    2) python3 cipher.py decrypt -c -fow testoutput.txt -output ctest.txt <br/>
+    1) python3 cipher.py encrypt -c -fow ctest.txt -output testoutput.txt 
+    2) python3 cipher.py decrypt -c -fow testoutput.txt -output ctest.txt 
     *Simple Substitution Cipher command examples* <br/>
     3) python3 cipher.py encrypt -ss -fow sstest.txt -output testoutput.txt <br/>
     4) python3 cipher.py decrypt -ss -fow testoutput.txt -output sstest.txt <br/>
