@@ -34,35 +34,35 @@ Description: Cipher.py is a commnad-line tool that allows a user to pick between
     *Caesar Cipher command examples* 
     1) python3 cipher.py encrypt -c -fow ctest.txt -output testoutput.txt 
     2) python3 cipher.py decrypt -c -fow testoutput.txt -output ctest.txt 
-    *Simple Substitution Cipher command examples* <br/>
-    3) python3 cipher.py encrypt -ss -fow sstest.txt -output testoutput.txt <br/>
-    4) python3 cipher.py decrypt -ss -fow testoutput.txt -output sstest.txt <br/>
-    *Vigenere Cipher command examples* <br/>
-    5) python3 cipher.py encrypt -pa -fow vtest.txt -output testoutput.txt -key ASIMOV <br/>
-    6) python3 cipher.py decrypt -pa -fow testoutput.txt -output vtest.txt -key ASIMOV <br/>
-    *Transposition Cipher command examples* <br/>
-    7) python3 cipher.py encrypt -tr -fow trtest.txt -output testoutput.txt -key 8 <br/>
-    8) python3 cipher.py decrypt -tr -fow testoutput.txt -output trtest.txt -key 8 <br/>
-    *Rail Fence Cipher command example* <br/>
-    9) python3 cipher.py encrypt -rfc -fow rfctest.txt -output testoutput.txt -key 3 <br/>
-    10) python3 cipher.py decrypt -rfc -fow testoutput.txt -output rfctest.txt -key 3 <br/>
+    *Simple Substitution Cipher command examples* 
+    3) python3 cipher.py encrypt -ss -fow sstest.txt -output testoutput.txt 
+    4) python3 cipher.py decrypt -ss -fow testoutput.txt -output sstest.txt 
+    *Vigenere Cipher command examples* 
+    5) python3 cipher.py encrypt -pa -fow vtest.txt -output testoutput.txt -key ASIMOV 
+    6) python3 cipher.py decrypt -pa -fow testoutput.txt -output vtest.txt -key ASIMOV 
+    *Transposition Cipher command examples* 
+    7) python3 cipher.py encrypt -tr -fow trtest.txt -output testoutput.txt -key 8 
+    8) python3 cipher.py decrypt -tr -fow testoutput.txt -output trtest.txt -key 8 
+    *Rail Fence Cipher command example* 
+    9) python3 cipher.py encrypt -rfc -fow rfctest.txt -output testoutput.txt -key 3 
+    10) python3 cipher.py decrypt -rfc -fow testoutput.txt -output rfctest.txt -key 3 
   
   ### List of commands for component of the command line tool
     1) action: <br/>
-      encrypt - lets the program know that you want to encrypt a file <br/>
-      decrypt - lets the program know that you want to decrypt a file <br/>
-    2) -type_of_cipher <br/>
-      -c -> means that you want to use the Caesar cipher <br/>
-      -ss -> means that you want to use the simple substitution cipher <br/>
-      -pa -> means that you want to use the Vigenere cipher (pa means poly-alphabetical) <br/>
-      -tr -> means that you want to use the transposition cipher <br/>
-      -tfc -> means that you want to use the rail fence cipher <br/>
-    3) -fow file_name <br/>
+      encrypt - lets the program know that you want to encrypt a file 
+      decrypt - lets the program know that you want to decrypt a file 
+    2) -type_of_cipher 
+      -c -> means that you want to use the Caesar cipher 
+      -ss -> means that you want to use the simple substitution cipher 
+      -pa -> means that you want to use the Vigenere cipher (pa means poly-alphabetical) 
+      -tr -> means that you want to use the transposition cipher 
+      -tfc -> means that you want to use the rail fence cipher 
+    3) -fow file_name 
         - Simply type "-fow " followed by the name of the file you want to read (make sure it's a txt file with '.txt' at the 
-      end of it) <br/>
-     4) -output write_to_this_file <br/>
-        - Simply type "-output " followed by the name of the file you want to write the translation to.  <br/>
-     5) -key number_or_string <br/>
+      end of it) 
+     4) -output write_to_this_file 
+        - Simply type "-output " followed by the name of the file you want to write the translation to.
+     5) -key number_or_string 
         -Simply type "-key " followd by a string of letters or a number depending on the type of cipher; transposition cipher
-        and rail fence cipher both take numbers as their key. <br/>
+        and rail fence cipher both take numbers as their key.
  
