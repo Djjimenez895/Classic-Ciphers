@@ -1,7 +1,7 @@
 # Classic-Ciphers
 Version: Python 3.4
 
-Description: Cipher.py is a commnad-line tool that allows a user to pick between 5 different classic ciphers to either encrypt or decrypt messages in a file and write them to a different file.
+Description: Cipher.py is a commamd-line tool that allows a user to pick between 5 different classic ciphers to either encrypt or decrypt messages in a file and write them to a different file.
 
 ## Features:
   ### Five Classic Ciphers for both encryption and decryption: 
